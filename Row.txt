@@ -1,0 +1,32 @@
+Widget build(BuildContext context) {
+    return Row(
+      children: <Widget>[
+        Container(
+          width: 50,
+          height: 50,
+          color: Colors.red,
+        ),
+        Container(
+          width: 50,
+          height: 50,
+          color: Colors.blue,
+        ),
+        Container(
+          width: 50,
+          height: 50,
+          color: Colors.yellow,
+        ),
+        Container(
+          width: 50,
+          height: 50,
+          color: Colors.green,
+        ),
+        Container(
+          width: 10,
+          height: 10000,
+          color: Colors.black,
+        )
+      ],
+    );
+  }
+}
